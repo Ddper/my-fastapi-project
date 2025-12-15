@@ -1,6 +1,9 @@
 {
     "name": "FastAPI with UV",
-    "image": "mcr.azure.cn/devcontainers/python:1-3.12",
+    // "image": "mcr.azure.cn/devcontainers/python:1-3.12",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devcontainer",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     
     "features": {
         // "ghcr.io/devcontainers/features/github-cli:1": {},
